@@ -1,0 +1,9 @@
+com\bdd\runnerfile\TestRunner.class
+com\bdd\stepdefinition\Registraions.class
+com\bdd\utility\Common.class
+com\bdd\stepdefinition\TestExecutor.class
+com\bdd\pages\RegisterPage.class
+com\bdd\stepdefinition\Hooks.class
+com\bdd\stepdefinition\Registrationn.class
+com\bdd\stepdefinition\Alerttt.class
+com\bdd\pages\Alert.class
