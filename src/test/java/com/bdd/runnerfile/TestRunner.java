@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\neworkspace\\AprilWeekendBDD\\src\\test\\java\\com\\bdd\\feature",
 				 glue="com.bdd.stepdefinition",
-				 plugin= {"pretty","html:cucumberreport"},
+				 plugin= {"pretty","html:cucumberreport","json:target/cucumber.json"},
 				 monochrome=true,// to view console information in readable format
 				 dryRun=false)// to check the unimplemented steps before execution
 public class TestRunner {
